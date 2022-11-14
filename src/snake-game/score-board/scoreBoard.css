@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.score-container {
+    text-align: center;
+}
+
+.high-score,
+.score {
+    padding-top: 10px;
+    font: bold 100%/1.5 sans-serif;
+    color: rgba(255, 255, 255, 0.5);
+}
