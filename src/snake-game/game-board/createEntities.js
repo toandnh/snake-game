@@ -1,6 +1,6 @@
-import { setCellValue } from '../../features/grid/gridSlice'
-import { updateFood } from '../../features/food/foodSlice'
-import { updateSnake } from '../../features/snake/snakeSlice'
+import { setCellValue } from '../features/grid/gridSlice'
+import { updateFood } from '../features/food/foodSlice'
+import { updateSnake } from '../features/snake/snakeSlice'
 
 
 const STARTING_ROW = 3

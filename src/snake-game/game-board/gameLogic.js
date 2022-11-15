@@ -1,8 +1,8 @@
-import { setCellValue } from '../../features/grid/gridSlice'
-import { updateSnake } from '../../features/snake/snakeSlice'
-import { addScore } from '../../features/score/scoreSlice'
-import { setHighScore } from '../../features/high-score/highScoreSlice'
-import { setGameOver } from '../../features/game-over/gameOverSlice'
+import { setCellValue } from '../features/grid/gridSlice'
+import { updateSnake } from '../features/snake/snakeSlice'
+import { addScore } from '../features/score/scoreSlice'
+import { setHighScore } from '../features/high-score/highScoreSlice'
+import { setGameOver } from '../features/game-over/gameOverSlice'
 
 import { createFood } from './createEntities'
 

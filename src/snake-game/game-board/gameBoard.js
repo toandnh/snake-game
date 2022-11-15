@@ -4,10 +4,10 @@ import { useDispatch, useSelector } from 'react-redux'
 import { createSnake, createFood } from './createEntities'
 import { handleMoveSnake } from './gameLogic'
 
-import { setDir } from '../../features/direction/directionSlice'
-import { setCellValue } from '../../features/grid/gridSlice'
-import { resetScore } from '../../features/score/scoreSlice'
-import { setGameOver } from '../../features/game-over/gameOverSlice'
+import { setDir } from '../features/direction/directionSlice'
+import { setCellValue } from '../features/grid/gridSlice'
+import { resetScore } from '../features/score/scoreSlice'
+import { setGameOver } from '../features/game-over/gameOverSlice'
 
 import myGlobalObject from '../globals'
 

@@ -1,7 +1,7 @@
 import { createSlice } from '@reduxjs/toolkit'
 
 
-import myGlobalObject from '../../snake-game/globals'
+import myGlobalObject from '../../globals'
 
 export const gridSlice = createSlice({
     name: 'grid',
